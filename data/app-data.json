@@ -1,0 +1,231 @@
+{
+  "transactions": [
+    {
+      "id": "txn_001",
+      "senderId": "user_001",
+      "receiverId": "user_002",
+      "senderName": "Sidharth",
+      "receiverName": "Rahul Kumar",
+      "amount": 500.00,
+      "type": "TRANSFER",
+      "status": "SUCCESS",
+      "note": "Lunch money",
+      "timestamp": "2026-03-06T14:30:00Z",
+      "upiRefId": "UPI123456789"
+    },
+    {
+      "id": "txn_002",
+      "senderId": "user_001",
+      "receiverId": "user_003",
+      "senderName": "Sidharth",
+      "receiverName": "Priya Sharma",
+      "amount": 1200.00,
+      "type": "TRANSFER",
+      "status": "SUCCESS",
+      "note": "Movie tickets",
+      "timestamp": "2026-03-05T18:45:00Z",
+      "upiRefId": "UPI987654321"
+    },
+    {
+      "id": "txn_003",
+      "senderId": "user_002",
+      "receiverId": "user_001",
+      "senderName": "Rahul Kumar",
+      "receiverName": "Sidharth",
+      "amount": 300.00,
+      "type": "TRANSFER",
+      "status": "SUCCESS",
+      "note": "Coffee",
+      "timestamp": "2026-03-04T10:15:00Z",
+      "upiRefId": "UPI456789123"
+    },
+    {
+      "id": "txn_004",
+      "senderId": "user_001",
+      "receiverId": "SELF",
+      "senderName": "Sidharth",
+      "receiverName": "Sidharth",
+      "amount": 5000.00,
+      "type": "SELF_TRANSFER",
+      "status": "SUCCESS",
+      "note": "Transfer to HDFC",
+      "fromBank": "bank_001",
+      "toBank": "bank_002",
+      "timestamp": "2026-03-03T09:00:00Z",
+      "upiRefId": "UPI789123456"
+    },
+    {
+      "id": "txn_005",
+      "senderId": "user_001",
+      "receiverId": "BILL_AIRTEL",
+      "senderName": "Sidharth",
+      "receiverName": "Airtel Mobile",
+      "amount": 599.00,
+      "type": "RECHARGE",
+      "status": "SUCCESS",
+      "note": "Mobile recharge",
+      "timestamp": "2026-03-02T16:30:00Z",
+      "upiRefId": "UPI321654987"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "contact_001",
+      "userId": "user_002",
+      "name": "Rahul Kumar",
+      "phone": "+91 87654 32109",
+      "upiId": "rahul@okbank",
+      "avatar": "R",
+      "isFavorite": true
+    },
+    {
+      "id": "contact_002",
+      "userId": "user_003",
+      "name": "Priya Sharma",
+      "phone": "+91 76543 21098",
+      "upiId": "priya@okbank",
+      "avatar": "P",
+      "isFavorite": true
+    },
+    {
+      "id": "contact_003",
+      "userId": "user_004",
+      "name": "Amit Patel",
+      "phone": "+91 65432 10987",
+      "upiId": "amit@okbank",
+      "avatar": "A",
+      "isFavorite": false
+    },
+    {
+      "id": "contact_004",
+      "userId": "user_005",
+      "name": "Sneha Gupta",
+      "phone": "+91 54321 09876",
+      "upiId": "sneha@okbank",
+      "avatar": "S",
+      "isFavorite": false
+    }
+  ],
+  "billers": [
+    {
+      "id": "biller_001",
+      "name": "Airtel",
+      "category": "MOBILE_RECHARGE",
+      "logo": "airtel",
+      "plans": [
+        {"id": "plan_001", "amount": 239, "validity": "28 days", "data": "1.5GB/day", "description": "Unlimited calls + 1.5GB/day"},
+        {"id": "plan_002", "amount": 479, "validity": "56 days", "data": "1.5GB/day", "description": "Unlimited calls + 1.5GB/day"},
+        {"id": "plan_003", "amount": 599, "validity": "84 days", "data": "2GB/day", "description": "Unlimited calls + 2GB/day"},
+        {"id": "plan_004", "amount": 2999, "validity": "365 days", "data": "2.5GB/day", "description": "Unlimited calls + 2.5GB/day"}
+      ]
+    },
+    {
+      "id": "biller_002",
+      "name": "Jio",
+      "category": "MOBILE_RECHARGE",
+      "logo": "jio",
+      "plans": [
+        {"id": "plan_005", "amount": 209, "validity": "28 days", "data": "1GB/day", "description": "Unlimited calls + 1GB/day"},
+        {"id": "plan_006", "amount": 399, "validity": "56 days", "data": "1.5GB/day", "description": "Unlimited calls + 1.5GB/day"},
+        {"id": "plan_007", "amount": 599, "validity": "84 days", "data": "2GB/day", "description": "Unlimited calls + 2GB/day"}
+      ]
+    },
+    {
+      "id": "biller_003",
+      "name": "Vi",
+      "category": "MOBILE_RECHARGE",
+      "logo": "vi",
+      "plans": [
+        {"id": "plan_008", "amount": 249, "validity": "28 days", "data": "1GB/day", "description": "Unlimited calls + 1GB/day"},
+        {"id": "plan_009", "amount": 449, "validity": "56 days", "data": "1.5GB/day", "description": "Unlimited calls + 1.5GB/day"}
+      ]
+    },
+    {
+      "id": "biller_004",
+      "name": "Electricity Board",
+      "category": "ELECTRICITY",
+      "logo": "electricity",
+      "plans": []
+    },
+    {
+      "id": "biller_005",
+      "name": "DTH - Tata Play",
+      "category": "DTH",
+      "logo": "tataplay",
+      "plans": [
+        {"id": "plan_010", "amount": 200, "validity": "30 days", "data": "", "description": "Basic pack"},
+        {"id": "plan_011", "amount": 500, "validity": "30 days", "data": "", "description": "Premium pack"}
+      ]
+    }
+  ],
+  "offers": [
+    {
+      "id": "offer_001",
+      "title": "Get ₹100 cashback",
+      "description": "Pay ₹500 or more using Google Pay and get ₹100 cashback",
+      "validTill": "2026-03-31T23:59:59Z",
+      "merchant": "Any",
+      "minAmount": 500,
+      "cashback": 100,
+      "code": "GPAY100"
+    },
+    {
+      "id": "offer_002",
+      "title": "₹50 off on Recharge",
+      "description": "Get ₹50 off on mobile recharge of ₹299 or above",
+      "validTill": "2026-03-20T23:59:59Z",
+      "merchant": "Recharge",
+      "minAmount": 299,
+      "cashback": 50,
+      "code": "RECHARGE50"
+    },
+    {
+      "id": "offer_003",
+      "title": "Flat 10% cashback",
+      "description": "Get flat 10% cashback on electricity bill payment",
+      "validTill": "2026-04-15T23:59:59Z",
+      "merchant": "Electricity",
+      "minAmount": 100,
+      "cashback": 0,
+      "cashbackPercent": 10,
+      "code": "BILL10"
+    }
+  ],
+  "businesses": [
+    {
+      "id": "biz_001",
+      "name": "Swiggy",
+      "category": "Food",
+      "upiId": "swiggy@okbank",
+      "logo": "swiggy"
+    },
+    {
+      "id": "biz_002",
+      "name": "Zomato",
+      "category": "Food",
+      "upiId": "zomato@okbank",
+      "logo": "zomato"
+    },
+    {
+      "id": "biz_003",
+      "name": "Amazon",
+      "category": "Shopping",
+      "upiId": "amazon@okbank",
+      "logo": "amazon"
+    },
+    {
+      "id": "biz_004",
+      "name": "Flipkart",
+      "category": "Shopping",
+      "upiId": "flipkart@okbank",
+      "logo": "flipkart"
+    },
+    {
+      "id": "biz_005",
+      "name": "Uber",
+      "category": "Travel",
+      "upiId": "uber@okbank",
+      "logo": "uber"
+    }
+  ]
+}

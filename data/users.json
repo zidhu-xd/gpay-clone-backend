@@ -1,0 +1,126 @@
+{
+  "users": [
+    {
+      "id": "user_001",
+      "name": "Sidharth",
+      "email": "sidharth@example.com",
+      "phone": "+91 98765 43210",
+      "password": "$2a$10$xVqYLGMHMCdBQ8G5Fp1Bxe3XZ5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5",
+      "upiId": "sidharth@okbank",
+      "avatar": "S",
+      "balance": 25000.00,
+      "bankAccounts": [
+        {
+          "id": "bank_001",
+          "bankName": "State Bank of India",
+          "accountNumber": "XXXX XXXX 4521",
+          "ifsc": "SBIN0001234",
+          "balance": 25000.00,
+          "isPrimary": true,
+          "logo": "sbi"
+        },
+        {
+          "id": "bank_002",
+          "bankName": "HDFC Bank",
+          "accountNumber": "XXXX XXXX 7832",
+          "ifsc": "HDFC0004567",
+          "balance": 42000.00,
+          "isPrimary": false,
+          "logo": "hdfc"
+        }
+      ],
+      "rewardPoints": 1250,
+      "scratchCards": [
+        {
+          "id": "sc_001",
+          "amount": 50,
+          "isScratched": false,
+          "expiresAt": "2026-04-01T00:00:00Z"
+        },
+        {
+          "id": "sc_002",
+          "amount": 100,
+          "isScratched": true,
+          "expiresAt": "2026-03-15T00:00:00Z"
+        }
+      ],
+      "createdAt": "2025-01-15T10:30:00Z"
+    },
+    {
+      "id": "user_002",
+      "name": "Rahul Kumar",
+      "email": "rahul@example.com",
+      "phone": "+91 87654 32109",
+      "password": "$2a$10$xVqYLGMHMCdBQ8G5Fp1Bxe3XZ5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5",
+      "upiId": "rahul@okbank",
+      "avatar": "R",
+      "balance": 15000.00,
+      "bankAccounts": [
+        {
+          "id": "bank_003",
+          "bankName": "ICICI Bank",
+          "accountNumber": "XXXX XXXX 9012",
+          "ifsc": "ICIC0006789",
+          "balance": 15000.00,
+          "isPrimary": true,
+          "logo": "icici"
+        }
+      ],
+      "rewardPoints": 800,
+      "scratchCards": [],
+      "createdAt": "2025-02-20T14:00:00Z"
+    },
+    {
+      "id": "user_003",
+      "name": "Priya Sharma",
+      "email": "priya@example.com",
+      "phone": "+91 76543 21098",
+      "password": "$2a$10$xVqYLGMHMCdBQ8G5Fp1Bxe3XZ5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5",
+      "upiId": "priya@okbank",
+      "avatar": "P",
+      "balance": 38000.00,
+      "bankAccounts": [
+        {
+          "id": "bank_004",
+          "bankName": "Axis Bank",
+          "accountNumber": "XXXX XXXX 3456",
+          "ifsc": "UTIB0002345",
+          "balance": 38000.00,
+          "isPrimary": true,
+          "logo": "axis"
+        }
+      ],
+      "rewardPoints": 2100,
+      "scratchCards": [],
+      "createdAt": "2025-03-10T09:15:00Z"
+    },
+    {
+      "id": "user_004",
+      "name": "Amit Patel",
+      "email": "amit@example.com",
+      "phone": "+91 65432 10987",
+      "password": "$2a$10$xVqYLGMHMCdBQ8G5Fp1Bxe3XZ5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5",
+      "upiId": "amit@okbank",
+      "avatar": "A",
+      "balance": 12000.00,
+      "bankAccounts": [],
+      "rewardPoints": 350,
+      "scratchCards": [],
+      "createdAt": "2025-04-05T16:45:00Z"
+    },
+    {
+      "id": "user_005",
+      "name": "Sneha Gupta",
+      "email": "sneha@example.com",
+      "phone": "+91 54321 09876",
+      "password": "$2a$10$xVqYLGMHMCdBQ8G5Fp1Bxe3XZ5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5Z5",
+      "upiId": "sneha@okbank",
+      "avatar": "S",
+      "balance": 55000.00,
+      "bankAccounts": [],
+      "rewardPoints": 3200,
+      "scratchCards": [],
+      "createdAt": "2025-05-12T11:30:00Z"
+    }
+  ]
+}
